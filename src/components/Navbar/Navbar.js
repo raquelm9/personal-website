@@ -4,7 +4,7 @@ import "./Navbar.css";
 export class Navbar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
+      <nav className="navbar navbar-toggleable-md navbar-light navbar-background">
         <button
           className="navbar-toggler navbar-toggler-right"
           type="button"
@@ -16,10 +16,13 @@ export class Navbar extends React.Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a class="navbar-brand font-italic font-weight-light" href="#">
+          RM
         </a>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div className="navbar-nav">
             <a className="nav-item nav-link active" href="#">
               Home <span className="sr-only">(current)</span>
@@ -30,7 +33,7 @@ export class Navbar extends React.Component {
             <a className="nav-item nav-link" href="#">
               Pricing
             </a>
-            <a className="nav-item nav-link disabled" href="#">
+            <a className="nav-item nav-link" href="#">
               Disabled
             </a>
           </div>

@@ -1,10 +1,11 @@
 import React from "react";
+import { SocialMedia } from "../SocialMedia/SocialMedia";
 import "./AboutMeCard.css";
 
 export class AboutMeCard extends React.Component {
   render() {
     return (
-      <div className="container card-general-content">
+      <div className="card-general-content">
         <div className="row">
           <div className="col"></div>
           <div className="col-sm-12 col-md-6 my-image">
@@ -24,11 +25,9 @@ export class AboutMeCard extends React.Component {
           </div>
           <div className="col"></div>
         </div>
-        <div className="row">
-          <div className="card-footer">
-            <h1>Hello</h1>
-          </div>
-        </div>
+        <footer className="card-footer">
+          <SocialMedia></SocialMedia>
+        </footer>
       </div>
     );
   }

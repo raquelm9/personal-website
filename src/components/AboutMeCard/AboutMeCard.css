@@ -1,5 +1,9 @@
 .card-general-content {
-  width: 400px;
+  float: right;
+  margin-right: -15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 450px;
   background-color: lightgray;
   padding: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

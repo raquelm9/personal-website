@@ -10,10 +10,10 @@ function App() {
       <Navbar></Navbar>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-7 col-sm-12">
+          <div className="background-aboutme-card col-md-5 col-sm-12">
             <AboutMeCard></AboutMeCard>
           </div>
-          <div className="col-md-4 col-sm-12">
+          <div className="col-md-4 col-sm-12 offset-md-1">
             <AboutMeContent></AboutMeContent>
           </div>
         </div>
