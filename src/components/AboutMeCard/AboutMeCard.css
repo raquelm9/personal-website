@@ -1,0 +1,44 @@
+.card-general-content {
+  width: 400px;
+  background-color: lightgray;
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-image {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.my-name {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.break-point {
+  width: 50%;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.my-title {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+}
+
+div .card-footer {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
