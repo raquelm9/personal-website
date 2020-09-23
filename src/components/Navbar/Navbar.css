@@ -1,3 +1,8 @@
 .navbar-background {
   background-color: white;
 }
+
+a .navbar-nav {
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
+}

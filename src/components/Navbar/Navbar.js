@@ -25,16 +25,16 @@ export class Navbar extends React.Component {
         >
           <div className="navbar-nav">
             <a className="nav-item nav-link active" href="#">
-              Home <span className="sr-only">(current)</span>
+              ABOUT ME <span className="sr-only">(current)</span>
             </a>
             <a className="nav-item nav-link" href="#">
-              Features
+              PROJECTS
             </a>
             <a className="nav-item nav-link" href="#">
-              Pricing
+              RESUME
             </a>
             <a className="nav-item nav-link" href="#">
-              Disabled
+              CONTACT
             </a>
           </div>
         </div>
