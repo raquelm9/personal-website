@@ -1,8 +1,12 @@
+.background-aboutme-card {
+  background-color: #e8b4b8;
+}
+
 .card-general-content {
   float: right;
   margin-right: -15%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
   width: 400px;
   background-color: #eed6d3;
   padding: 0;

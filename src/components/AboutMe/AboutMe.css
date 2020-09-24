@@ -1,13 +1,1 @@
-.background-aboutme-card {
-  background-color: #e8b4b8;
-}
 
-.about-me-content {
-  margin-top: 150px;
-}
-
-@media only screen and (max-width: 767px) {
-  .about-me-content {
-    margin-top: 50px;
-  }
-}
