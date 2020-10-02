@@ -4,16 +4,12 @@
 }
 
 .project-title {
-  margin: 20px auto;
-}
-
-.project-content {
-  margin: 50px 0;
+  margin: 50px auto;
   text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
-  .project-content {
-    margin: 50px 50px;
+  .background-my-projects {
+    padding: 10px 0;
   }
 }

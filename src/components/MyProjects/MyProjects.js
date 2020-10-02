@@ -7,9 +7,11 @@ export class MyProjects extends React.Component {
   render() {
     return (
       <section className="row background-my-projects">
-        <h1 className="project-title">Projects</h1>
-        <MyProjectsContent></MyProjectsContent>
-        <MyProjectsCard></MyProjectsCard>
+        <div className="col-12">
+          <h1 className="project-title">Projects</h1>
+          <MyProjectsContent></MyProjectsContent>
+          <MyProjectsCard></MyProjectsCard>
+        </div>
       </section>
     );
   }
