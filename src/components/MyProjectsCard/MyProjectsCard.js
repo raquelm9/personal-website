@@ -22,7 +22,7 @@ export class MyProjectsCard extends React.Component {
         description:
           "I was challenged to automate this math problem. I used many functions that connect to each other, providing the final result as the output. For decoration I used bootstrap.",
         image: GreatestCommonDivisor,
-        link: "#",
+        link: "https://nervous-johnson-97852b.netlify.app/",
         key: "1",
       },
     ];
