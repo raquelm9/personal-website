@@ -14,8 +14,8 @@ export class MyEducationCardBlueprint extends React.Component {
           <div className="row">
             <div className="education-name-description col-md-5 col-sm-12">
               <p>{this.props.year}</p>
-              <p>{this.props.jobPosition}</p>
-              <p>{this.props.companyName}</p>
+              <p>{this.props.educationPosition}</p>
+              <p>{this.props.educationName}</p>
             </div>
             <div className="education-name-description col-md-7 col-sm-12">
               <p>{this.props.description}</p>

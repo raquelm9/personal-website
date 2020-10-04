@@ -8,17 +8,40 @@ export class MyEducationCard extends React.Component {
 
     this.education = [
       {
-        year: "Project 1",
-        jobPosition: "ABC",
-        companyName: "ABC",
-        description: "abc",
+        year: "2019 - 2015",
+        educationPosition: "Bachelor of Science in Engineering",
+        educationName: "Metropolitan University - Caracas, Venezuela",
+        description: (
+          <p>
+            My specialization is in Production Engineering.
+            <br />
+            <br />
+            Production applied in the search for solutions to technological
+            problems that improve current practices. Aware of the need to
+            understand the new challenges of technology, its application in our
+            society and the environment
+          </p>
+        ),
         key: "0",
       },
       {
-        year: "Project 1",
-        jobPosition: "ABC",
-        companyName: "ABC",
-        description: "abc",
+        year: "2020",
+        educationPosition: "Beginner Full Stack Web Development",
+        educationName:
+          "Devslopes & Udemy https://www.udemy.com/course/ultimate-web/",
+        description: (
+          <p>
+            Introductory course in the area of web development
+            <br />
+            <br />
+            Subjects covered: HTML, CSS, Javascript, Git, Bootstrap, Flexbox,
+            Sass, Node, Mongo, REST APIs, and React.
+            <br />
+            <br />
+            The course also explained how computers work, binary, Heap vs Stack,
+            hexadecimal and storage capacity
+          </p>
+        ),
         key: "0",
       },
     ];
@@ -29,8 +52,8 @@ export class MyEducationCard extends React.Component {
       <MyEducationCardBlueprint
         key={education.key}
         year={education.year}
-        jobPosition={education.jobPosition}
-        companyName={education.companyName}
+        educationPosition={education.educationPosition}
+        educationName={education.educationName}
         description={education.description}
       />
     );

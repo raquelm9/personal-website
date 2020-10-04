@@ -12,7 +12,7 @@ function App() {
       <div className="container-fluid">
         <AboutMe></AboutMe>
         <MyProjects></MyProjects>
-        {/* <MyResume></MyResume> */}
+        <MyResume></MyResume>
       </div>
     </>
   );

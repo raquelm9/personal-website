@@ -12,10 +12,10 @@ export class MySkillsAndLanguages extends React.Component {
               <div className="row">
                 <div className="skill-name-description col-md-5 col-sm-12">
                   <h2>Professional skillset</h2>
-                  <p>Entrepreneurial Mindset</p>
-                  <p>Teamwork & Collaboration</p>
-                  <p>Go-to-Market Planning</p>
-                  <p>Digital Analytics</p>
+                  <p>Problem-solver</p>
+                  <p>Critical thinking</p>
+                  <p>Creativity</p>
+                  <p>Cognitive flexibility</p>
                 </div>
               </div>
               <div className="row">
