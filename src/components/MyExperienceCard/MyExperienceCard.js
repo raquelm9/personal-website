@@ -1,71 +1,28 @@
 import React from "react";
-import { MyExperienceCardBlueprint } from "../MyExperienceCardBlueprint/MyExperienceCardBlueprint";
 import "./MyExperienceCard.css";
 
 export class MyExperienceCard extends React.Component {
   constructor(props) {
     super(props);
-
-    this.experience = [
-      {
-        year: "2020 - Present",
-        jobPosition: "Full Stack Developer (Bootcamp)",
-        companyName: "EvolveU - Calgary, AB",
-        description: (
-          <p>
-            Full-time programming bootcamp.
-            <br />
-            <br />
-            Focused on coding languages and frameworks such as; Python,
-            JavaScript, Flask, Bootstrap, OpenPyXL, HTML/CSS, SQLAlchemy, and
-            REACT.js.
-            <br />
-            <br />
-            The course is designed to simulate an agile working environment.
-          </p>
-        ),
-        key: "evolveu",
-      },
-      {
-        year: "2018 - 2020",
-        jobPosition: "Project Magager/ Coordinator",
-        companyName: "AccessSMT - Calgary, AB",
-        description: (
-          <p>
-            Responsible for the smooth functioning of day to day operations to
-            ensure that projects are completed on time and within budget.
-            <br />
-            <br />
-            Key Projects: Calgary Cancer Centre, Hillcrest K-9 School,
-            Brookfield Residential YMCA at Seton, Iron Springs- Huntsville
-            Replacement K-9 School.
-          </p>
-        ),
-        key: "access_smt",
-      },
-    ];
-  }
-
-  renderExperienceCard(experience) {
-    return (
-      <MyExperienceCardBlueprint
-        key={experience.key}
-        year={experience.year}
-        jobPosition={experience.jobPosition}
-        companyName={experience.companyName}
-        description={experience.description}
-      />
-    );
   }
 
   render() {
     return (
       <div className="row">
-        <div class="offset-md-3"></div>
-        <h2>Experience</h2>
-        <div className="col-12">
-          {this.experience.map(this.renderExperienceCard)}
+        <div className="col"></div>
+        <div className="experience-card-blueprint col-sm-12 col-md-6">
+          <div className="row">
+            <div className="experience-name-description col-md-5 col-sm-12">
+              <p>{this.props.year}</p>
+              <p>{this.props.jobPosition}</p>
+              <p>{this.props.companyName}</p>
+            </div>
+            <div className="experience-name-description col-md-7 col-sm-12">
+              <p>{this.props.description}</p>
+            </div>
+          </div>
         </div>
+        <div className="col"></div>
       </div>
     );
   }
