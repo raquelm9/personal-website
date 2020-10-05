@@ -1,6 +1,6 @@
 .background-my-resume {
   background-color: pink;
-  padding: 100px 0;
+  padding: 100px 0px;
 }
 
 .resume-title {
@@ -10,6 +10,6 @@
 
 @media only screen and (max-width: 767px) {
   .background-my-resume {
-    padding: 10px 0;
+    padding: 10px 20px;
   }
 }

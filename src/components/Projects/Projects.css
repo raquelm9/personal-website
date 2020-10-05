@@ -1,6 +1,6 @@
 .background-my-projects {
   background-color: #f9f1f0;
-  padding: 100px 0;
+  padding: 100px 0px;
 }
 
 .project-title {
@@ -10,6 +10,6 @@
 
 @media only screen and (max-width: 767px) {
   .background-my-projects {
-    padding: 10px 0;
+    padding: 10px 20px;
   }
 }

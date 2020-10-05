@@ -15,7 +15,7 @@
   background-color: white;
   height: 350px;
   width: 100%;
-  padding: 80px;
+  padding: 75px;
   font-size: 14px;
 }
 
@@ -30,12 +30,32 @@
 }
 
 .resume-instName {
-  font-weight: 500;
   font-size: 14px;
 }
 
 @media only screen and (max-width: 767px) {
-  .name-description {
-    margin: 0 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .resume-year-container {
+    padding: 20px;
+    height: 140px;
+  }
+
+  .resume-description-container {
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .resume-year-container {
+    padding: 20px;
+    height: 150px;
+  }
+
+  .resume-description-container {
+    height: 300px;
+    padding: 20px;
   }
 }

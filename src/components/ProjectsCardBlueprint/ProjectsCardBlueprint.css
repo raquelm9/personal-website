@@ -21,7 +21,6 @@
   text-align: center;
   width: 100%;
   bottom: 40px;
-  position: relative;
 }
 
 .project-link {
@@ -42,11 +41,4 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .project-name-description {
-    margin: 0 20px;
-  }
-
-  .project-image {
-    margin: 0 20px;
-  }
 }

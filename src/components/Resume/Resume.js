@@ -14,7 +14,7 @@ export class Resume extends React.Component {
         <div className="col-12">
           <h1 className="resume-title">Resume</h1>
           <ResumeContent />
-          <SkillsAndLanguages></SkillsAndLanguages>
+          <SkillsAndLanguages />
         </div>
       </section>
     );

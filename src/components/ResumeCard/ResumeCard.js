@@ -1,6 +1,7 @@
 import React from "react";
 import { ResumeContent } from "../ResumeContent/ResumeContent";
 import "./ResumeCard.css";
+import { SkillsAndLanguages } from "../SkillsAndLanguages/SkillsAndLanguages";
 
 export class ResumeCard extends React.Component {
   constructor(props) {
@@ -12,7 +13,7 @@ export class ResumeCard extends React.Component {
         <div className="col-12">
           <div className="row">
             <div className="col"></div>
-            <div className="card-blueprint col-sm-11 col-md-6 col-lg-5">
+            <div className="card-blueprint col-sm-10 col-md-6 col-lg-5">
               <div className="row">
                 <div className="resume-year-container col-lg-5 col-md-12">
                   <p className="resume-year">{this.props.year}</p>

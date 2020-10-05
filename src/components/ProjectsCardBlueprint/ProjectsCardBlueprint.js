@@ -10,7 +10,7 @@ export class ProjectsCardBlueprint extends React.Component {
     return (
       <div className="row">
         <div className="col"></div>
-        <div className="project-card-blueprint col-sm-11 col-md-6 col-lg-5">
+        <div className="project-card-blueprint col-sm-10 col-md-6 col-lg-5">
           <div className="row">
             <div className="project-name-description col-lg-7 col-md-12">
               <p className="projects-title">{this.props.title}</p>
