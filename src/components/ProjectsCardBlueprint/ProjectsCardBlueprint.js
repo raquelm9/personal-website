@@ -1,7 +1,7 @@
 import React from "react";
-import "./MyProjectsCardBlueprint.css";
+import "./ProjectsCardBlueprint.css";
 
-export class MyProjectsCardBlueprint extends React.Component {
+export class ProjectsCardBlueprint extends React.Component {
   constructor(props) {
     super(props);
   }

@@ -1,7 +1,7 @@
 import React from "react";
-import "./MySkillsAndLanguages.css";
+import "./SkillsAndLanguages.css";
 
-export class MySkillsAndLanguages extends React.Component {
+export class SkillsAndLanguages extends React.Component {
   render() {
     return (
       <div className="row">

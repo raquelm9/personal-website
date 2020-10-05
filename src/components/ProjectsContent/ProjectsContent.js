@@ -1,7 +1,7 @@
 import React from "react";
-import "./MyProjectsContent.css";
+import "./ProjectsContent.css";
 
-export class MyProjectsContent extends React.Component {
+export class ProjectsContent extends React.Component {
   render() {
     return (
       <div className="row">

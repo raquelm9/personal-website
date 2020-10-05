@@ -1,10 +1,10 @@
 import React from "react";
-import { MyProjectsCardBlueprint } from "../MyProjectsCardBlueprint/MyProjectsCardBlueprint";
-import "./MyProjectsCard.css";
+import { ProjectsCardBlueprint } from "../ProjectsCardBlueprint/ProjectsCardBlueprint";
+import "./ProjectsCard.css";
 import TicTacToe from "../../assets/ttt_img.png";
 import GreatestCommonDivisor from "../../assets/gcd_img.png";
 
-export class MyProjectsCard extends React.Component {
+export class ProjectsCard extends React.Component {
   constructor(props) {
     super(props);
 
@@ -30,7 +30,7 @@ export class MyProjectsCard extends React.Component {
 
   renderProjectCard(project) {
     return (
-      <MyProjectsCardBlueprint
+      <ProjectsCardBlueprint
         key={project.key}
         title={project.title}
         description={project.description}

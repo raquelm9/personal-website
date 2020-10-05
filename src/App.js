@@ -3,7 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar.js";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { MyProjects } from "./components/MyProjects/MyProjects";
-import { MyResume } from "./components/MyResume/MyResume";
+import { Resume } from "./components/Resume/Resume";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <div className="container-fluid">
         <AboutMe></AboutMe>
         <MyProjects></MyProjects>
-        <MyResume></MyResume>
+        <Resume></Resume>
       </div>
     </>
   );
