@@ -24,16 +24,16 @@ export class Navbar extends React.Component {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="#">
+            <a className="nav-item nav-link active" href="#about-me">
               ABOUT ME <span className="sr-only">(current)</span>
             </a>
-            <a className="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#projects">
               PROJECTS
             </a>
-            <a className="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#resume">
               RESUME
             </a>
-            <a className="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#contact">
               CONTACT
             </a>
           </div>

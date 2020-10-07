@@ -6,7 +6,7 @@ import { ProjectsCard } from "../ProjectsCard/ProjectsCard";
 export class Projects extends React.Component {
   render() {
     return (
-      <section className="row background-my-projects">
+      <section className="row background-my-projects" id="projects">
         <div className="col-12">
           <h1 className="project-title">Projects</h1>
           <ProjectsContent></ProjectsContent>

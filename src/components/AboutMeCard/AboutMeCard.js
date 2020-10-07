@@ -5,7 +5,7 @@ import "./AboutMeCard.css";
 export class AboutMeCard extends React.Component {
   render() {
     return (
-      <div className="background-aboutme-card col-md-5 col-sm-12">
+      <div className="background-aboutme-card col-md-5 col-sm-12" id="about-me">
         <div className="card-general-content">
           <div className="row">
             <div className="col"></div>

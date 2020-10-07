@@ -20,7 +20,7 @@ export class ProjectsCard extends React.Component {
       {
         title: "Greatest Common Divisor Calculator",
         description:
-          "I was challenged to automate this math problem. I used many functions that connect to each other, providing the final result as the output. For decoration I used bootstrap.",
+          "I was challenged to automate this math problem. I used many functions that connect to each other, providing the final result as an output. For decoration I used bootstrap.",
         image: GreatestCommonDivisor,
         link: "https://nervous-johnson-97852b.netlify.app/",
         key: "1",

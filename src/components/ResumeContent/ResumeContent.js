@@ -17,12 +17,10 @@ export class ResumeContent extends React.Component {
             Full-time programming bootcamp.
             <br />
             <br />
-            Focused on coding languages and frameworks such as; Python,
+            The course is designed to simulate an agile working environment.
+            It's focused on coding languages and frameworks such as; Python,
             JavaScript, Flask, Bootstrap, OpenPyXL, HTML/CSS, SQLAlchemy, and
             REACT.js.
-            <br />
-            <br />
-            The course is designed to simulate an agile working environment.
           </p>
         ),
         key: "evolveu",
@@ -56,7 +54,7 @@ export class ResumeContent extends React.Component {
             My specialization is in Production Engineering.
             <br />
             <br />
-            Production Engineering applied in the search for solutions to
+            Production Engineering is a career focused on finding solutions to
             technological problems that improve current practices. Aware of the
             need to understand the new challenges of technology, its application
             in our society and the environment.
