@@ -1,5 +1,20 @@
 .background-aboutme-card {
-  background-color: #e8b4b8;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .card-general-content {
@@ -8,7 +23,7 @@
   margin-top: 15%;
   margin-bottom: 15%;
   width: 400px;
-  background-color: #eed6d3;
+  background-color: #dcdcdc;
   padding: 0;
   box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }

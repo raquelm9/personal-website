@@ -17,7 +17,7 @@ export class ProjectsCardBlueprint extends React.Component {
               <p className="project-description">{this.props.description}</p>
               <div className="link-container">
                 <a
-                  class="btn btn-primary text-center"
+                  class="btn btn-primary button-project"
                   href={this.props.link}
                   target="_blank"
                   role="button"

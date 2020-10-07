@@ -1,3 +1,8 @@
 h5.modal-title {
   margin: auto;
 }
+
+.btn-primary.button-modal {
+  background-color: #23a6d5;
+  border-color: #23a6d5;
+}

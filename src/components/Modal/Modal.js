@@ -45,7 +45,7 @@ export class Modal extends React.Component {
               >
                 Close
               </button>
-              <button type="button" className="btn btn-primary">
+              <button type="button" className="btn btn-primary button-modal">
                 Send
               </button>
             </div>
