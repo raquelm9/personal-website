@@ -26,7 +26,7 @@ export class Footer extends React.Component {
             </div>
             <div className="col"></div>
             <div className="col-12 col-lg-3 info-footer">
-              <p className="footer-info">© 2023 by Raquel Mijares.</p>
+              <p className="footer-info">© 2020 by Raquel Mijares.</p>
               <p className="footer-info">Proudly created with React</p>
             </div>
           </div>
