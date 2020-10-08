@@ -1,5 +1,5 @@
 .background-aboutme-card {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #b5d4cb, #7ba6ce, #ed107f41, #eea619);
   background-size: 400% 400%;
   position: relative;
   animation: change 10s ease-in-out infinite;
@@ -23,7 +23,7 @@
   margin-top: 15%;
   margin-bottom: 15%;
   width: 400px;
-  background-color: #dcdcdc;
+  background-color: #efedea;
   padding: 0;
   box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }

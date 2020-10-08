@@ -84,10 +84,11 @@ export class ResumeContent extends React.Component {
     ];
   }
 
-  renderInformation(information) {
+  renderInformation(information, extraClass) {
     return (
       <ResumeCard
         key={information.key}
+        className={extraClass}
         year={information.year}
         position={information.position}
         instName={information.instName}
@@ -100,10 +101,14 @@ export class ResumeContent extends React.Component {
     return (
       <>
         <ResumeSection title="Experience">
-          {this.experience.map(this.renderInformation)}
+          {this.experience.map((information) =>
+            this.renderInformation(information, "foo-bar")
+          )}
         </ResumeSection>
         <ResumeSection title="Education">
-          {this.education.map(this.renderInformation)}
+          {this.education.map((information) =>
+            this.renderInformation(information, "baz")
+          )}
         </ResumeSection>
       </>
     );

@@ -11,10 +11,10 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="container-fluid">
+      <div className="container-fluid background-main-content">
         <AboutMe></AboutMe>
-        <Projects></Projects>
         <Resume></Resume>
+        <Projects></Projects>
       </div>
       <Footer></Footer>
       <Modal></Modal>

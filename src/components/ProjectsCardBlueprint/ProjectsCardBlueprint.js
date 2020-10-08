@@ -22,7 +22,7 @@ export class ProjectsCardBlueprint extends React.Component {
                   target="_blank"
                   role="button"
                 >
-                  Link
+                  Check it out
                 </a>
               </div>
             </div>

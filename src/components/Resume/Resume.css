@@ -1,12 +1,11 @@
 .background-my-resume {
-  background-color: white;
   padding: 50px 0px;
 }
 
 .resume-title {
   margin-top: 50px;
   text-align: center;
-  color: #23a6d5;
+  color: #55575b;
 }
 
 @media only screen and (max-width: 767px) {

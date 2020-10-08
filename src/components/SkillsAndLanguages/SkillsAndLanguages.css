@@ -4,13 +4,15 @@
 }
 
 .skill-name-description {
-  background-color: white;
+  background-color: #7ba6ce;
+  color: white;
   width: 100%;
   font-size: 14px;
 }
 
 .language-name-description {
-  background-color: white;
+  background-color: #7ba6ce;
+  color: white;
   width: 100%;
   font-size: 14px;
 }
@@ -23,7 +25,7 @@
 
 .square-icon {
   margin: 0 10px;
-  color: #23a6d5;
+  color: white;
 }
 
 p.skill-language-list {

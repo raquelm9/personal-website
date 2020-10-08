@@ -6,14 +6,19 @@
   margin-top: 150px;
 }
 
-@media only screen and (max-width: 767px) {
-  div .about-me-content {
-    padding-right: 50px;
-    padding-left: 50px;
-    margin: 50px 0;
-  }
+.about-me-content-text {
+  max-width: 440px;
 }
 
+@media only screen and (max-width: 767px) {
+  div .about-me-content {
+    padding: 50px;
+    background-color: #dcdcdc;
+  }
+  .about-me-content {
+    margin-top: 0px;
+  }
+}
 @media only screen and (max-width: 430px) {
   .about-me-hello {
     font-size: 40px;

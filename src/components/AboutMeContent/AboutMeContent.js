@@ -10,16 +10,12 @@ export class AboutMeContent extends React.Component {
           <h2 className="about-me-welcome">Welcome to my webpage</h2>
           <p className="about-me-content-text">
             My name is Raquel, I am part of Cohort 5 at EvolveU, a Full Stack
-            development program.
-            <br></br>
-            <br></br>I currently live in beautiful Calgary, Alberta.
-            <br></br>
-            <br></br>
+            development program. I currently live in beautiful Calgary, Alberta.
             If you have an awesome idea and need help with web development,
             contact me. I would love to hear it.
             <br></br>
             <br></br>
-            BTW, Expect a lot of smiles from me :)
+            <b>BTW, Expect a lot of smiles from me :)</b>
           </p>
         </div>
         <div className="col"></div>
