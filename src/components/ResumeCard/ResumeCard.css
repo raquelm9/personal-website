@@ -5,10 +5,12 @@
 
 .foo-bar .resume-year-container {
   background-color: #825d79;
+  border-radius: 5px;
 }
 
 .resume-year-container {
   background-color: #b5d4cb;
+  border-radius: 5px;
   color: white;
   height: 350px;
   width: 100%;
@@ -18,6 +20,7 @@
 
 .resume-description-container {
   background-color: white;
+  border-radius: 5px;
   height: 350px;
   width: 100%;
   padding: 75px;

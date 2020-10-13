@@ -13,8 +13,8 @@ function App() {
       <Navbar></Navbar>
       <div className="container-fluid background-main-content">
         <AboutMe></AboutMe>
-        <Resume></Resume>
         <Projects></Projects>
+        <Resume></Resume>
       </div>
       <Footer></Footer>
       <Modal></Modal>

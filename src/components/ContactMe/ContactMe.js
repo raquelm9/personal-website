@@ -7,7 +7,7 @@ export class ContactMe extends React.Component {
       <div>
         <button
           type="button"
-          className="btn btn-primary btn-sm button-contactme"
+          className="btn btn-warning btn-sm button-contactme"
           data-toggle="modal"
           data-target="#contactMe"
         >
