@@ -2,8 +2,11 @@
   background-color: white;
   min-height: 360px;
   padding: 20px;
-  display: flex;
   border-bottom: 5px solid #ec9720;
+}
+
+.carousel-content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }

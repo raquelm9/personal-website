@@ -39,8 +39,8 @@ export class ContactMeForm extends React.Component {
   renderFailure() {
     return (
       <div className="email-not-sent">
-        <i className="fas fa-times"> Failed to send email</i>
-        <p>Please try again later.</p>
+        <i className="fas fa-times" />
+        <p>Failed to send email: Please try again later.</p>
       </div>
     );
   }
@@ -48,8 +48,8 @@ export class ContactMeForm extends React.Component {
   renderSuccess() {
     return (
       <div className="email-sent">
-        <i className="fas fa-check"> Email sent</i>
-        <p>Thank you for reaching out to me!</p>
+        <i className="fas fa-check" />
+        <p>Email sent: Thanks for reaching out!</p>
       </div>
     );
   }

@@ -16,11 +16,13 @@ export class Recommendations extends React.Component {
   renderItem(name, position, message, idx) {
     return (
       <div className={this.itemClass(idx)} key={`recommendation=${idx}`}>
-        <div className="professional-profile">
-          <h2>{name}</h2>
-          <h3>{position}</h3>
+        <div className="carousel-content">
+          <div className="professional-profile">
+            <h2>{name}</h2>
+            <h3>{position}</h3>
+          </div>
+          <p className="recommendation-message">{message}</p>
         </div>
-        <p className="recommendation-message">{message}</p>
       </div>
     );
   }
