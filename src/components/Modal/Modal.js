@@ -8,7 +8,7 @@ export class Modal extends React.Component {
       <div
         className="modal fade"
         id="contactMe"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"

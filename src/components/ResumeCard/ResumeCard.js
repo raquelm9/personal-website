@@ -34,7 +34,9 @@ class ResumeCardComponent extends React.Component {
                   <p className="resume-instName">{this.props.instName}</p>
                 </div>
                 <div className="resume-description-container col-lg-7 col-md-12">
-                  <p className="resume-description">{this.props.description}</p>
+                  <span className="resume-description">
+                    {this.props.description}
+                  </span>
                 </div>
               </div>
             </div>

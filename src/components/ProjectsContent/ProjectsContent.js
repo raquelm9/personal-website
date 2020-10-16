@@ -7,7 +7,7 @@ export class ProjectsContent extends React.Component {
       <div className="row">
         <div className="col"></div>
         <div className="col-sm-12 col-md-8 col-lg-5">
-          <p className="project-content">
+          <div className="project-content">
             <p>
               I love to build things, nothing makes me more proud than looking
               at the final result (maybe that's why I studied engineering{" "}
@@ -16,7 +16,7 @@ export class ProjectsContent extends React.Component {
               with trial and error. Below you will see some of my first
               projects, <strong>Enjoy!</strong>
             </p>
-          </p>
+          </div>
         </div>
         <div className="col"></div>
       </div>
