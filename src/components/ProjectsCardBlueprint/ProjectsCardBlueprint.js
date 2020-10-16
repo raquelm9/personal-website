@@ -1,16 +1,28 @@
 import React from "react";
 import "./ProjectsCardBlueprint.css";
+import "animate.css";
+import handleViewport from "react-in-viewport";
 
-export class ProjectsCardBlueprint extends React.Component {
+class ProjectsCardBlueprintComponent extends React.Component {
   constructor(props) {
     super(props);
+  }
+
+  containerClasses() {
+    let regularClass = "project-card-blueprint col-sm-10 col-md-6 col-lg-5";
+
+    if (this.props.inViewport) {
+      regularClass += " animate__animated animate__pulse";
+    }
+
+    return regularClass;
   }
 
   render() {
     return (
       <div className="row">
         <div className="col"></div>
-        <div className="project-card-blueprint col-sm-10 col-md-6 col-lg-5">
+        <div className={this.containerClasses()}>
           <div className="row">
             <div
               className="project-image col-lg-5 col-md-12"
@@ -21,7 +33,7 @@ export class ProjectsCardBlueprint extends React.Component {
               <p className="project-description">{this.props.description}</p>
               <div className="link-container">
                 <a
-                  class="btn btn-warning button-project"
+                  className="btn btn-warning button-project"
                   href={this.props.link}
                   target="_blank"
                   role="button"
@@ -37,3 +49,8 @@ export class ProjectsCardBlueprint extends React.Component {
     );
   }
 }
+
+export const ProjectsCardBlueprint = handleViewport(
+  ProjectsCardBlueprintComponent,
+  { rootMargin: "-1.0px" }
+);

@@ -16,7 +16,7 @@ export class Navbar extends React.Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand font-italic font-weight-light" href="#">
+        <a className="navbar-brand font-italic font-weight-light" href="#">
           RM
         </a>
         <div

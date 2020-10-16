@@ -37,18 +37,6 @@ export class Modal extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-primary button-modal">
-                Send
-              </button>
-            </div>
           </div>
         </div>
       </div>

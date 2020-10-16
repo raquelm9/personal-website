@@ -1,0 +1,70 @@
+.carousel-item {
+  background-color: white;
+  min-height: 360px;
+  padding: 20px;
+  display: flex;
+  border-bottom: 5px solid #ec9720;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-item .professional-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carousel-item h2 {
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 100px;
+  margin-right: 40px;
+}
+
+.carousel-item h3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  align-self: center;
+  max-width: 70%;
+}
+
+.carousel-inner {
+  box-shadow: -4px 4px 20px 1px rgba(138, 131, 124, 0.23);
+}
+
+.carousel-control-prev {
+  position: absolute;
+  left: 0;
+}
+
+.carousel-control-next {
+  position: absolute;
+  right: 0;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: black;
+  font-size: 30px;
+}
+
+.recommendation-message {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel-item {
+    min-height: 500px;
+  }
+
+  .carousel-control-prev i,
+  .carousel-control-next i {
+    color: black;
+    font-size: 20px;
+  }
+}

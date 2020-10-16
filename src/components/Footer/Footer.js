@@ -10,17 +10,17 @@ export class Footer extends React.Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-5 col-sm-6 col-md-4 col-lg-2 contact-me-footer">
-              <div class="vertical-center">
+              <div className="vertical-center">
                 <ContactMe />
               </div>
             </div>
             <div className="col-7 col-sm-6 col-md-4 col-lg-2 write-footer">
-              <p className="footer-title">Write</p>
-              <p className="footer-email">raquelmjrs2@gmail.com</p>
+              <p className="footer-title">Email</p>
+              <p className="footer-email">raquelmjrs@gmail.com</p>
             </div>
             <div className="col-12 col-md-4 col-lg-2 follow-footer">
               <p className="footer-title">Follow</p>
-              <div class="horizontal-center">
+              <div className="horizontal-center">
                 <SocialMedia />
               </div>
             </div>

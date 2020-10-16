@@ -1,3 +1,12 @@
-.form-message {
-  height: 100px;
+.btn-warning.button-modal {
+  background-color: #eea619;
+  border-color: #eea619;
+}
+
+.email-sent {
+  color: green;
+}
+
+.email-not-sent {
+  color: red;
 }

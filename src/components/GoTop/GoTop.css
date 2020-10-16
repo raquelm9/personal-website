@@ -1,0 +1,16 @@
+.arrow-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 50px;
+  color: #ec971f;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.arrow-top:hover {
+  cursor: pointer;
+  transform: translate(2%);
+  border-radius: 50%;
+  box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
+}

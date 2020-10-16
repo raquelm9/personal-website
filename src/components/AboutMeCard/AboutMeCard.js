@@ -1,12 +1,13 @@
 import React from "react";
 import { SocialMedia } from "../SocialMedia/SocialMedia";
 import "./AboutMeCard.css";
+import "animate.css";
 
 export class AboutMeCard extends React.Component {
   render() {
     return (
       <div className="background-aboutme-card col-md-5 col-sm-12" id="about-me">
-        <div className="card-general-content">
+        <div className="card-general-content animate__animated animate__backInLeft">
           <div className="row">
             <div className="col"></div>
             <div className="col-sm-12 col-md-6 my-image">

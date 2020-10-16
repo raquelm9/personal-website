@@ -6,13 +6,13 @@ export class SocialMedia extends React.Component {
     return (
       <div className="social-media-container">
         <a href="mailto: raquemjrs2@gmail.com" target="blank">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
         <a href="https://www.linkedin.com/in/raquelmjrs/" target="blank">
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </a>
         <a href="https://github.com/raquelm9" target="blank">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </div>
     );

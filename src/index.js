@@ -14,6 +14,7 @@ window.Tether = Tether;
 import Popper from "popper.js";
 window.Popper = Popper;
 
+import "emailjs-com";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 require("bootstrap");
