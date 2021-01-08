@@ -27,7 +27,7 @@ export class ResumeContent extends React.Component {
       },
       {
         year: "2018 - 2020",
-        position: "Project Magager/ Coordinator",
+        position: "Project Manager/ Coordinator",
         instName: "AccessSMT - Calgary, AB",
         description: (
           <p>
@@ -46,7 +46,7 @@ export class ResumeContent extends React.Component {
 
     this.education = [
       {
-        year: "2019 - 2015",
+        year: "2009 - 2015",
         position: "Bachelor of Science in Engineering",
         instName: "Metropolitan University - Caracas, Venezuela",
         description: (
